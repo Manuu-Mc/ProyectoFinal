@@ -1,4 +1,5 @@
 package uniquindio.edu.co.proyectofinalcodigo.model;
 
-public enum IGestionadorAcceso {
+public interface IGestionadorAcceso {
+        boolean validarAcceso(Visitante v, Atraccion a);
 }

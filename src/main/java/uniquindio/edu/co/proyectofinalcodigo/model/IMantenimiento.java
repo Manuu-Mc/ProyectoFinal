@@ -1,4 +1,7 @@
 package uniquindio.edu.co.proyectofinalcodigo.model;
 
-public enum IMantenimiento {
+public interface IMantenimiento {
+
+    boolean verificarMantenimiento();
+    void registrarRevision();
 }

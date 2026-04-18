@@ -1,4 +1,6 @@
 package uniquindio.edu.co.proyectofinalcodigo.model;
 
-public enum Notificacion {
+import java.time.LocalDateTime;
+
+public record Notificacion(String mensaje, LocalDateTime fecha) {
 }
