@@ -28,15 +28,20 @@ public class Visitante extends Usuario {
 
         // Getters y Setters
         public int getEdad() {
-            return edad; }
+            return edad;
+        }
         public double getEstatura() {
-            return estatura; }
+            return estatura;
+        }
         public double getSaldoVirtual() {
-            return saldoVirtual; }
+            return saldoVirtual;
+        }
         public List<Atraccion> getFavoritas() {
-            return favoritas; }
+            return favoritas;
+        }
         public Ticket getTicket() {
-            return ticket; }
+            return ticket;
+        }
         public void setTicket(Ticket ticket) {
             this.ticket = ticket;
         }
